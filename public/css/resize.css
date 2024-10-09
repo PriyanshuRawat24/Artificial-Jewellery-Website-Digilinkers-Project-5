@@ -2,7 +2,17 @@
 
  @media only screen and (max-width: 991px) { }
 
- @media only screen and (max-width: 767px) { }
+ @media only screen and (max-width: 767px) { 
+    .new-collection-text-box-2 button {
+        margin-left: 2rem;
+    }
+    .new-collection-text-box-1 h2 {
+        text-align: center;
+    }
+    .footer-wrapper {
+        text-align: center;
+    }
+ }
 
  @media only screen and (max-width: 600px) { 
 
