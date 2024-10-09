@@ -7,7 +7,7 @@
 	<div class="main-cover">
 
 		<div class="page-banner-wrap">
-			<img src="<?php echo $path; ?>img/banner-placeholder.jpg" alt="" class="img-fluid" />
+			<img src="<?php echo $path; ?>contact-image/banner.jpg" alt="" class="img-fluid"/>
 		</div> <!--  .about-banner-wrap -->
 
 		<?php

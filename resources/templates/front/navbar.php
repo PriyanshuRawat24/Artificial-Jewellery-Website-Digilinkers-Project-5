@@ -15,7 +15,7 @@
                     <a class="nav-link myNav-link" href="<?php echo $path; ?>about-us">About</a>
                 </li>
                 <li class="nav-item myNav-item">
-                    <a class="nav-link myNav-link" href="<?php echo $path; ?>">Service</a>
+                    <a class="nav-link myNav-link" href="<?php echo $path; ?>products">Shop</a>
                 </li>
                 <li class="nav-item myNav-item">
                     <a class="nav-link myNav-link" href="<?php echo $path; ?>contact-us">Contact</a>
