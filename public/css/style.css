@@ -1,0 +1,786 @@
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+} */
+
+/*----------------------------------------------------------------------------------------------------------------
+	Global
+----------------------------------------------------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  color: #000;
+}
+p {
+  color: #676767;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.c-btn {
+  background-color: #071e70;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+.c-btn:hover {
+  color: #fff;
+  background-color: #04113e;
+}
+.mr0 {
+  margin: 0;
+}
+.pd0 {
+  padding: 0;
+}
+.mrt10 {
+  margin-top: 10px;
+}
+.mrt20 {
+  margin-top: 20px;
+}
+.mrt30 {
+  margin-top: 30px;
+}
+.mrt40 {
+  margin-top: 40px;
+}
+.mrb10 {
+  margin-bottom: 10px;
+}
+.mrb20 {
+  margin-bottom: 20px;
+}
+.mrb30 {
+  margin-bottom: 30px;
+}
+.mrb40 {
+  margin-bottom: 40px;
+}
+.pdt10 {
+  padding-top: 10px;
+}
+.pdt20 {
+  padding-top: 20px;
+}
+.pdb10 {
+  padding-bottom: 10px;
+}
+.pdb20 {
+  padding-bottom: 20px;
+}
+.section-entry {
+  padding: 5rem 0;
+}
+.page-section {
+  padding: 2rem 0;
+}
+
+.relative {
+  position: relative;
+}
+.width100 {
+  width: 100%;
+}
+.txtct {
+  text-align: center;
+}
+.txtrt {
+  text-align: right;
+}
+.txtupr {
+  text-transform: uppercase;
+}
+.dflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	Navbar
+---------------------------------------------------------------------------------------------------------------------*/
+
+.navbar {
+  background-color: black !important;
+  -webkit-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+}
+.logo-img {
+  width: 230px;
+}
+#navbarNav {
+  justify-content: end;
+}
+.nav-item {
+  padding-right: 2rem;
+}
+.nav-item:nth-last-child(1) {
+  padding-right: 0;
+}
+.nav-link {
+  color: white !important;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 2px solid #fff;
+}
+
+/* add your custome hamburger icon */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../img/toggler.png);
+}
+
+.navbar-dark .navbar-toggler:focus {
+  outline: none;
+}
+
+.customNav {
+  background-color: #ee3739 !important;
+  -webkit-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+  animation: navSlide 1s ease forwards;
+}
+
+@keyframes navSlide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	Carousel
+---------------------------------------------------------------------------------------------------------------------*/
+
+.myCarouselCaption {
+  right: 50%;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 10%;
+  color: #000;
+  text-align: left;
+}
+.myCarouselCaption h5 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.myCarouselCaption p {
+  padding-right: 100px;
+}
+
+/* ...........................................................................
+ Owl Carousel
+..................................................................................... */
+
+.owl-prev span,
+.owl-next span {
+  color: red;
+  font-size: 20px;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+  color: #8199a3;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.owl-prev {
+  left: -20px;
+}
+
+.owl-next {
+  right: -20px;
+}
+
+/* removing blue outline from buttons */
+button:focus,
+button:active {
+  outline: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	Home
+---------------------------------------------------------------------------------------------------------------------*/
+.main-wrapper {
+  margin-top: 1rem;
+}
+
+/* first */
+
+.info-wrapper {
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.info-text-box h2 {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.info-para-box p {
+  margin-top: 20px;
+  color: #000;
+}
+
+.button-box button {
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.button-box button:hover {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.info-image-box {
+  margin-top: 25px;
+}
+
+.info-image-box img {
+  border-radius: 20px;
+}
+
+/* second-section */
+
+.explore-our-collection-wrapper {
+  padding: 20px;
+}
+
+.heading-line-box h2 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.owl-carousel {
+  margin-top: 50px;
+}
+
+.image-box img {
+  border-radius: 20px;
+}
+
+.image-box h5 {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* third-wrapper */
+
+.background-wrapper {
+  background-image: url(../images/background-image-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.background-text-box {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  margin-top: 30px;
+}
+
+.background-text-box h2 {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.background-text-box p {
+  margin-top: 30px;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.804);
+}
+
+.background-text-box button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.background-text-box button:hover {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+
+/* forth-section */
+
+.new-collection-wrapper {
+  margin-top: 6rem;
+  padding: 60px;
+}
+
+.new-collection-image-box img {
+  border-radius: 20px;
+}
+
+.new-collection-text-box-1 h2 {
+  color: #000;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.new-collection-text-box-2 button {
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 14rem;
+  margin-top: 1rem;
+}
+
+.new-collection-text-box-2 button:hover {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.new-collection-image-box img {
+  margin-top: 5rem;
+}
+
+.new-collection-image-text-box {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.new-collection-image-text-box h5 {
+  text-transform: capitalize;
+  color: #000;
+}
+
+.new-collection-image-text-box p {
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* owl-carousel */
+
+.item img {
+  padding: 25px;
+}
+
+/* fivth-section */
+
+.why-us-wrapper {
+  margin-top: 50px;
+}
+
+.text-box {
+  margin-top: 30px;
+}
+
+.text-box h2 {
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.text-box p {
+  margin-top: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.logo-text-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.logo-text-box i {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-text-box h5 {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	About
+---------------------------------------------------------------------------------------------------------------------*/
+
+/* about-section */
+
+.about-us-section-wrapper {
+  padding: 60px;
+}
+
+.about-us-section-wrapper .text-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.about-us-section-wrapper .text-box p {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.about-us-img-box {
+  margin-top: 1rem;
+  padding: 0;
+  width: 100%;
+}
+
+/* <!-- about-background-section --> */
+
+.about-background-wrapper {
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(..//images/banner-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: #000000a6;
+}
+
+.background-title-box-section h2 {
+  font-size: 60px;
+  margin-top: 9rem;
+  margin-left: 85px;
+  font-weight: 400;
+  color: white;
+}
+
+.background-para-box h2{
+  color: white;
+}
+
+.background-para-box p{
+  color: rgba(255, 255, 255, 0.741);
+}
+
+/* expert-team-section */
+
+.expert-team-wrapper {
+  margin-top: 7rem;
+}
+
+.expert-team-image-box img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.expert-team-heading-box h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+.expert-team-heading-box p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.expert-team-text-box h5 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.expert-team-text-box p {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+/* client-testimonials-section */
+
+
+.client-testimonials-wrapper {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.client-testimonials-text-box p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.client-testimonials-text-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.testimonials .item h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.testimonials .item p {
+  font-size: 20px;
+  text-align: center;
+}
+/*---------------------------------------------------------------------------------------------------------------------
+	Products
+---------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------
+	Contact
+---------------------------------------------------------------------------------------------------------------------*/
+
+.form-check {
+  margin-right: 15px;
+}
+
+.form-text-box {
+  margin-top: 30px;
+}
+.form-text-box h2 {
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.form-box {
+  padding: 50px;
+  background-color: whitesmoke;
+  margin-bottom: 72px;
+  border-radius: 10px;
+}
+
+.form-btn-box button {
+  margin-bottom: 2rem;
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.form-btn-box button:hover {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.form-text-section {
+  text-align: center;
+  padding: 60px;
+}
+
+.contact-mail-wrap h5 {
+  font-size: 30px;
+}
+
+.contact-phone-wrap {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-phone-wrap h5 {
+  font-size: 30px;
+}
+
+.contact-social-wrap {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-social-wrap h5 {
+  font-size: 30px;
+}
+
+.contact-social-wrap p {
+  font-size: 25px;
+}
+
+.contact-social-list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.adress-box {
+  text-align: center;
+}
+
+.adress-box h5 {
+  font-size: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	404 page not found
+---------------------------------------------------------------------------------------------------------------------*/
+/*.page-not-found-wrap {
+	margin-top: 7rem;
+}*/
+.page-not-found {
+  display: table;
+  margin: 0 auto;
+  padding: 5rem 0;
+  width: 50%;
+  filter: drop-shadow(2px 4px 6px black);
+  display: none;
+}
+.page-not-found-text {
+  text-align: center;
+  margin: 8rem 0 5rem;
+}
+
+/* oops text with fill background image */
+.page-not-found-text h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 20vw;
+  color: #000;
+  background: url("../img/banner1.jpg") no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+  text-transform: capitalize;
+  /*display: none; currently not visible*/
+}
+
+.page-not-found-text h6 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.page-not-found-text a {
+  font-weight: bold;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------
+	Footer
+---------------------------------------------------------------------------------------------------------------------*/
+
+.footer-wrapper {
+  margin-top: -5px;
+  padding-top: 70px;
+  background-color: black;
+}
+
+.company-image-box img {
+  color: white;
+}
+
+.company-para-box p {
+  margin-top: 20px;
+  color: white;
+}
+
+.head-box h4 {
+  text-transform: capitalize;
+  color: white;
+}
+
+.para-box {
+  padding-left: 0;
+  margin: 0;
+}
+
+.para-box li {
+  line-height: 28px;
+}
+
+.para-box a,
+.footer-inner-box-1 a,
+.company-para-box p {
+  text-transform: capitalize;
+  color: #dfdfdf;
+}
+
+.footer-inner-box-1 a {
+  text-transform: none;
+}
+
+.para-box a:hover,
+.footer-inner-box-1 a:hover,
+.company-para-box p:hover {
+  color: #fff;
+}
+
+.head-1 {
+  color: white;
+  text-transform: capitalize;
+}
+
+.head-2 {
+  text-transform: capitalize;
+  color: white;
+}
+
+.footer-inner-box-1 p {
+  text-transform: capitalize;
+  color: white;
+}

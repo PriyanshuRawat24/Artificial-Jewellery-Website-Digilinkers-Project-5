@@ -1,0 +1,16 @@
+ @media only screen and (max-width: 1200px) { }
+
+ @media only screen and (max-width: 991px) { }
+
+ @media only screen and (max-width: 767px) { }
+
+ @media only screen and (max-width: 600px) { 
+
+    table {
+        display: block;   
+        width: 100%;
+        overflow-x: auto;
+    }
+ }
+
+ @media only screen and (max-width: 575px) { }
