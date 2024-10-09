@@ -20,7 +20,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="info-text-box">
-								<h2>Choose jewellery with heart & feelings</h2>
+								<h1>Choose jewellery with heart & feelings</h1>
 							</div>
 							<div class="info-para-box">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio praesentium dolore totam amet officiis magni saepe, earum reprehenderit reiciendis?</p>
@@ -247,7 +247,7 @@
 						<div class="col-lg-3 col-md-3 col-sm-12">
 							<a href="#">
 								<div class="logo-text-box">
-									<i class="fa-solid fa-plane fa-fade"></i>
+									<i class="fa-solid fa-plane"></i>
 									<h5> we ship world wide </h5>
 								</div>
 							</a>
@@ -255,7 +255,7 @@
 						<div class="col-lg-3 col-md-3 col-sm-12">
 							<a href="#">
 								<div class="logo-text-box">
-									<i class="fa-solid fa-hand-holding-dollar fa-fade"></i>
+									<i class="fa-solid fa-hand-holding-dollar"></i>
 									<h5> <span>cod</span> available in all </h5>
 								</div>
 							</a>
@@ -263,7 +263,7 @@
 						<div class="col-lg-3 col-md-3 col-sm-12">
 							<a href="#">
 								<div class="logo-text-box">
-									<i class="fa-solid fa-file-shield fa-fade"></i>
+									<i class="fa-solid fa-file-shield"></i>
 									<h5> secure payment </h5>
 								</div>
 							</a>
