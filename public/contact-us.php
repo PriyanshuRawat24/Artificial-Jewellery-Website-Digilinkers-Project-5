@@ -159,15 +159,18 @@
 												Find us at:
 											</p>
 											<ul class="contact-social-list d-flex">
-												<li class="pr-3">
-													<a href=""><i class="fab fa-facebook-f"></i></a>
-												</li>
-												<li class="pr-3">
-													<a href=""><i class="fab fa-instagram"></i></a>
-												</li>
-												<li class="pr-3">
-													<a href=""><i class="fab fa-linkedin-in"></i></a>
-												</li>
+											  <li class="pr-3">
+												<a href=""><i class="fab fa-facebook-f"></i></a>
+											  </li>
+											  <li class="pr-3">
+												<a href=""><i class="fab fa-instagram"></i></a>
+											  </li>
+											  <li class="pr-3">
+												<a href=""> <i class="fa-brands fa-x-twitter"></i> </a>
+											  </li>
+											  <li class="pr-3">
+												<a href=""> <i class="fa-brands fa-linkedin"></i> </i></a>
+											  </li>
 											</ul>
 										</div>
 									</div>
@@ -202,9 +205,10 @@
 								<div class="footer-inner-box-2 text-light">
 									<a href="#">
 										<h4 class="head-2"> our service</h4>
-										<i class="fa-solid fa-facebook"></i>
-										<i class="fa-solid fa-instagram"></i>
-										<i class="fa-solid fa-x-twitter"></i>
+										<i class="fa-brands fa-facebook"></i>
+										<i class="fa-brands fa-instagram"></i>
+										<i class="fa-brands fa-x-twitter"></i>
+										<i class="fa-brands fa-linkedin"></i>
 									</a>
 								</div>
 							</div>

@@ -44,7 +44,27 @@ $('.hm-jewellery').owlCarousel({
             items:0
         },
         600:{
+            items:1
+        },
+        1000:{
             items:4
+        }
+    }
+})
+
+$('.company-jewellery').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay: true,
+    nav:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause: true,
+    responsive:{
+        0:{
+            items:0
+        },
+        600:{
+            items:1
         },
         1000:{
             items:4
@@ -64,7 +84,7 @@ $('.about-us').owlCarousel({
             items:1
         },
         600:{
-            items:4
+            items:1
         },
         1000:{
             items:4

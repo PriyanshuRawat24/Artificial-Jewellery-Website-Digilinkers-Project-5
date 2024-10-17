@@ -213,18 +213,18 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="hm-jewellery owl-carousel owl-theme">
-								<div class="item">
-									<img src="..//public/images/owl-carousal-image-1.svg" alt="">
+							<div class="company-jewellery owl-carousel owl-theme">
+								<div class="item-2">
+									<img src="..//public/images/owl-carousal-image-1.svg" alt="" class="img-fluid">
 								</div>
-								<div class="item">
-									<img src="..//public/images/owl-carousal-image-2.svg" alt="">
+								<div class="item-2">
+									<img src="..//public/images/owl-carousal-image-2.svg" alt="" class="img-fluid">
 								</div>
-								<div class="item">
-									<img src="..//public/images/owl-carousal-image-4.svg" alt="">
+								<div class="item-2">
+									<img src="..//public/images/owl-carousal-image-4.svg" alt="" class="img-fluid">
 								</div>
-								<div class="item">
-									<img src="..//public/images/owl-carousal-image-5.svg" alt="">
+								<div class="item-2">
+									<img src="..//public/images/owl-carousal-image-5.svg" alt="" class="img-fluid">
 								</div>
 							</div>
 						</div>
@@ -248,7 +248,7 @@
 							<a href="#">
 								<div class="logo-text-box">
 									<i class="fa-solid fa-plane"></i>
-									<h5> we ship world wide </h5>
+									<h5> we ship <br>world wide </h5>
 								</div>
 							</a>
 						</div>
@@ -256,7 +256,7 @@
 							<a href="#">
 								<div class="logo-text-box">
 									<i class="fa-solid fa-hand-holding-dollar"></i>
-									<h5> <span>cod</span> available in all </h5>
+									<h5>Cod <br>Available</h5>
 								</div>
 							</a>
 						</div>
@@ -264,7 +264,7 @@
 							<a href="#">
 								<div class="logo-text-box">
 									<i class="fa-solid fa-file-shield"></i>
-									<h5> secure payment </h5>
+									<h5> secure <br>payment </h5>
 								</div>
 							</a>
 						</div>
@@ -272,7 +272,7 @@
 							<a href="#">
 								<div class="logo-text-box">
 									<i class="fa-solid fa-rotate-left fa-fade"></i>
-									<h5> easy return </h5>
+									<h5> Easy <br>Return </h5>
 								</div>
 							</a>
 						</div>
@@ -377,7 +377,10 @@
 												<a href=""><i class="fab fa-instagram"></i></a>
 											</li>
 											<li class="pr-3">
-												<a href=""><i class="fab fa-linkedin-in"></i></a>
+												<a href=""> <i class="fa-brands fa-x-twitter"></i> </a>
+											</li>
+											<li class="pr-3">
+												<a href=""> <i class="fa-brands fa-linkedin"></i> </i></a>
 											</li>
 										</ul>
 									</div>
@@ -396,7 +399,6 @@
 		</section>
 
 		<!-- footer-section -->
-
 		<section>
 			<footer>
 				<div class="footer-wrapper">
@@ -412,9 +414,10 @@
 								<div class="footer-inner-box-2 text-light">
 									<a href="#">
 										<h4 class="head-2"> our service</h4>
-										<i class="fa-solid fa-facebook"></i>
-										<i class="fa-solid fa-instagram"></i>
-										<i class="fa-solid fa-x-twitter"></i>
+										<i class="fa-brands fa-facebook"></i>
+										<i class="fa-brands fa-instagram"></i>
+										 
+										<i class="fa-brands fa-linkedin"></i>
 									</a>
 								</div>
 							</div>

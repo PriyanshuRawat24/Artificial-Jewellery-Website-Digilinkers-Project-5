@@ -11,6 +11,7 @@ html,body {
 /* @font-face {
   font-family: myFirstFont;
   src: url(sansation_light.woff);
+  color:white
 } */
 
 /*----------------------------------------------------------------------------------------------------------------
@@ -703,11 +704,20 @@ button:active {
 }
 
 .contact-social-list {
-  margin-top: 15px;
+  margin-top: -20px;
   display: flex;
   justify-content: center;
   margin-right: 25px;
 }
+
+.contact-social-list a {
+  color: black;
+  font-size: 40px;
+}
+
+.contact-social-list i {
+  font-size: 25px;
+} 
 
 .adress-box {
   text-align: center;
@@ -715,6 +725,10 @@ button:active {
 
 .adress-box h5 {
   font-size: 30px;
+}
+
+.footer-copyright-text {
+  text-align: center;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------
@@ -821,3 +835,13 @@ button:active {
   text-transform: capitalize;
   color: white;
 }
+
+.footer-inner-box-2 i{
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
