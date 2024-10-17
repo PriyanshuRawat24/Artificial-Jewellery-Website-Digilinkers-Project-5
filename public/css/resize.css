@@ -7,10 +7,13 @@
     .navbar-light .navbar-toggler-icon {
         background-color: white;
     }
+    h1,h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
     .nav-link {
         text-align: center;
-    }
-    
+    } 
     
     .image-box img{
         margin-left: 15px;
@@ -33,11 +36,11 @@
 
     .image-box h5{
         text-align: justify;
-        margin-left: 8rem;
+        margin-left: 9rem;
     }
 
     .background-text-box h2 {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .background-text-box p {

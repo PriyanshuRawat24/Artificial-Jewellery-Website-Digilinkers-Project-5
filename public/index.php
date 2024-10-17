@@ -104,7 +104,7 @@
 							<div class="item">
 								<div class="image-box">
 									<img src="..//public/images/temple-jewellary-1.jpg" class="img-fluid" alt="">
-									<h5>temple jewellery</h5>
+									<h5>temple</h5>
 								</div>
 							</div>
 						</a>
@@ -112,7 +112,7 @@
 							<div class="item">
 								<div class="image-box">
 									<img src="..//public/images/meenakari-jewellery-1.jpg" class="img-fluid" alt="">
-									<h5>meenakari jewellery</h5>
+									<h5>meenakari</h5>
 								</div>
 							</div>
 						</a>
@@ -128,7 +128,7 @@
 							<div class="item">
 								<div class="image-box">
 									<img src="..//public/images/beads-collections-2.jpg" class="img-fluid" alt="">
-									<h5>beads collection</h5>
+									<h5>beads </h5>
 								</div>
 							</div>
 						</a>
